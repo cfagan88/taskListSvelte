@@ -1,12 +1,12 @@
 <script>
-  import Counter from './lib/Counter.svelte'
+  import TasksForm from './components/tasks-form.svelte';
 </script>
 
 <main>
-  <h1>To-Do</h1>
+  <h1>To-Do List</h1>
 
   <div class="card">
-    <Counter />
+    <TasksForm />
   </div>
 </main>
 
