@@ -30,4 +30,7 @@ function handleSubmit(e: SubmitEvent) {
   justify-content: end;
   margin-top: 8px;
  }
+ form {
+  margin-bottom: 1rem;
+ }
 </style>
