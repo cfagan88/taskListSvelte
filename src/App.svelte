@@ -12,6 +12,10 @@
       done: false,
     })
   }
+
+  function toggleDone(task: Task){
+    task.done = !task.done;
+  }
 </script>
 
 <main>
@@ -19,7 +23,7 @@
 
   <div class="card">
     <TasksForm {addTask} />
-    <TasksList {tasks} />
+    <TasksList {tasks} {toggleDone} />
   </div>
 </main>
 
